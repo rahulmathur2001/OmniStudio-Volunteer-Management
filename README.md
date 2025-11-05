@@ -1,9 +1,9 @@
 # OmniStudio-Volunteer-Management
-An end-to-end OmniStudio solution using FlexCards, OmniScripts, and DataRaptors to manage volunteer shift registration, including dynamic eligibility checks
+An end-to-end OmniStudio solution using FlexCards, OmniScripts, and DataMappers to manage volunteer shift registration, including dynamic eligibility checks
 
 🚀 Project Overview
 
-This project demonstrates how to leverage OmniStudio tools — including FlexCards, OmniScripts, Integration Procedures, and DataRaptors — to design an interactive volunteer management application directly within Salesforce.
+This project demonstrates how to leverage OmniStudio tools — including FlexCards, OmniScripts, Integration Procedures, and DataMappers — to design an interactive volunteer management application directly within Salesforce.
 
 Volunteers can:\
 *View available shifts with live data.\
@@ -24,18 +24,12 @@ Volunteers can:\
   -Entering volunteer information.\
   -Checking training status and eligibility.\
   -Confirmation before submission.\
-*Integrates with DataRaptors and Integration Procedures to fetch and post data.
+*Integrates with DataMapper and Integration Procedures to fetch and post data.
 <img width="709" height="590" alt="Screenshot 2025-11-04 at 7 01 22 PM" src="https://github.com/user-attachments/assets/a29a1da8-ffc9-464d-9ebb-c091916bd7c5" />
 
-3. Integration Procedure – **VolunteerShiftHandler**\
-
-Handles backend orchestration:\
-   -Extracts Volunteer and Shift data.\
-   -Sets eligibility automatically (via Set Values).\
-   -Updates the Volunteer record using DataMapperPost.
 
 
-4. Data Mapper\
+3. Data Mapper\
 Name	                   Type           Purpose
 GetAvailableShift	       Extract	      Retrieves all available shifts from Salesforce\
 GetVolunteerDetails	     Extract	      Fetches volunteer details (age, training status, etc.)\
@@ -82,7 +76,7 @@ ShiftId	    {{ID}}
 Category	Tool\
 Platform	Salesforce OmniStudio\
 UI Components	FlexCards, OmniScripts\
-Data Integration	DataRaptors, Integration Procedures\
+Data Integration	DataMapper, Integration Procedures\
 Logic	Set Values, Conditional Display\
 Deployment	Lightning App Builder
 
@@ -90,7 +84,7 @@ Deployment	Lightning App Builder
 1.) Deploy Components\
    Import FlexCard JSON.\
    Import OmniScript JSON.\
-   Import Integration Procedure and DataRaptors.\
+   Import DataMapper\
 2.)Add FlexCard to Lightning Page\
    Go to App Builder → Add FlexCard Component → select AvailableShiftsCard.\
 3.)Test in Runtime\
