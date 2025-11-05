@@ -16,6 +16,7 @@ Volunteers can:
 *Displays all upcoming volunteer shifts.
 *Shows Shift Name, Date, and Slots Available.
 *Includes a “Join Shift” button that launches the OmniScript with the selected shift ID.
+<img width="683" height="270" alt="Screenshot 2025-11-04 at 7 02 59 PM" src="https://github.com/user-attachments/assets/8aa2b871-2929-463a-a814-cc8e4b50ec12" />
 
 2. OmniScript – **JoinShift**
 *Guided form for volunteers to register for a shift.
