@@ -110,6 +110,6 @@ Salesforce Developer | OmniStudio Specialist
  • ✉️ rahulmathurjuly@gmail.com
 
 🏁 Future Enhancements
-Add approval step for volunteer eligibility.
-Integrate email notifications using Messaging Templates.
-Create Shift Summary Dashboard using OmniAnalytics or Tableau CRM.
+*Add approval step for volunteer eligibility.
+*Integrate email notifications using Messaging Templates.
+*Create Shift Summary Dashboard using OmniAnalytics or Tableau CRM.
