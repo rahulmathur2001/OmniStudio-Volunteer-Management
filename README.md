@@ -24,6 +24,7 @@ Volunteers can:
   -Checking training status and eligibility.
   -Confirmation before submission.
 *Integrates with DataRaptors and Integration Procedures to fetch and post data.
+<img width="709" height="590" alt="Screenshot 2025-11-04 at 7 01 22 PM" src="https://github.com/user-attachments/assets/a29a1da8-ffc9-464d-9ebb-c091916bd7c5" />
 
 3. Integration Procedure – **VolunteerShiftHandler**
 
